@@ -1,0 +1,97 @@
+<mxfile host="Electron" modified="2026-09-22T21:40:00.000Z" agent="VSCode" version="21.6.8" type="device">
+  <!-- PÁGINA 1: EL CAMINO AL ÉXITO -->
+  <diagram id="path-to-success" name="1. Estrategia de Éxito (Flywheel)">
+    <mxGraphModel dx="1200" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="success-title" value="MAPA ESTRATÉGICO: FACTORES CLAVE DEL ÉXITO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1;fontColor=#2F5B2F;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" value="Core del Producto:&lt;br&gt;Experiencia de Usuario (UX)&lt;br&gt;Fluida y Divertida" style="whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="90" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" value="Gamificación Adictiva&lt;br&gt;(Rachas, niveles de cálculo,&lt;br&gt;desafíos de código)" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="324" y="200" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" value="Alta Retención de Usuarios&lt;br&gt;(El alumno regresa diario&lt;br&gt;para no perder su racha)" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="324" y="310" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s5" value="Efecto de Red Orgánico&lt;br&gt;(Usuarios comparten logros&lt;br&gt;y compiten con amigos)" style="whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;" vertex="1" parent="1">
+          <mxGeometry x="324" y="420" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s6" value="Crecimiento Masivo&lt;br&gt;de la Base de Usuarios&lt;br&gt;(Bajo costo de adquisición)" style="whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;" vertex="1" parent="1">
+          <mxGeometry x="324" y="530" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s7" value="Monetización Escalamiento&lt;br&gt;(Suscripciones Premium +&lt;br&gt;Anuncios optimizados)" style="whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" vertex="1" parent="1">
+          <mxGeometry x="324" y="640" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s8" value="Fondo de Reinversión&lt;br&gt;Rápida en R&amp;D&lt;br&gt;(Nuevos lenguajes y contenido)" style="whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" vertex="1" parent="1">
+          <mxGeometry x="324" y="750" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s9" value="ÉXITO COMPROBADO&lt;br&gt;Líder de Mercado en&lt;br&gt;EdTech de Ciencias Exactas" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="314" y="870" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="s2" target="s3" />
+        <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="s3" target="s4" />
+        <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="s4" target="s5" />
+        <mxCell id="edge4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="s5" target="s6" />
+        <mxCell id="edge5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="s6" target="s7" />
+        <mxCell id="edge6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="s7" target="s8" />
+        <mxCell id="edge7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="s8" target="s9" />
+        <mxCell id="loop-edge" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="s8" target="s2">
+          <mxGeometry relative="1" as="geometry">
+            <Array points="560,785" />
+            <Array points="560,125" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <!-- PÁGINA 2: ROADMAP DE MEJORA Y AGREGADOS -->
+  <diagram id="improvement-roadmap" name="2. Plan de Mejores y Agregados">
+    <mxGraphModel dx="1200" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="imp-title" value="PLAN DE MEJORA CONTINUA Y EXPANSIÓN DE MÓDULOS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1;fontColor=#4A2E5B;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" value="Aplicación Base Lanzada&lt;br&gt;(Matemáticas + Cálculo + Código)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m3" value="¿Qué funciones agregar para mejorar?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="190" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m4" value="1. IA Solver integrada&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Explicación paso a paso de&lt;br&gt;fórmulas complejas y corrección&lt;br&gt;en vivo de bugs en el código.&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontStyle=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="330" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m5" value="2. Entorno Escolar (B2B)&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Panel de control para profesores.&lt;br&gt;Permite asignar tareas de cálculo&lt;br&gt;y evaluar código automáticamente.&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontStyle=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="309" y="330" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m6" value="3. Proyectos del Mundo Real&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Ecosistema donde el alumno aplica&lt;br&gt;álgebra lineal y cálculo creando&lt;br&gt;modelos reales de ciencia de datos.&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontStyle=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="560" y="330" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m7" value="Efecto en la Retención:&lt;br&gt;Usuarios avanzados se quedan&lt;br&gt;por el valor técnico añadido." style="whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="470" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m8" value="Apertura de Mercado:&lt;br&gt;Venta de licencias corporativas&lt;br&gt;y convenios con universidades." style="whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" vertex="1" parent="1">
+          <mxGeometry x="309" y="470" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m9" value="Monetización Premium Extrema:&lt;br&gt;Certificaciones con validez oficial&lt;br&gt;para adjuntar en LinkedIn." style="whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" vertex="1" parent="1">
+          <mxGeometry x="560" y="470" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m10" value="Bolsa de Trabajo e Integración de Talento Tech&lt;br&gt;&lt;font style=&quot;font-weight: normal;&quot;&gt;Las empresas pagan una comisión a tu app por contratar a los&lt;br&gt;estudiantes con los puntajes más altos en matemáticas y desarrollo.&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="600" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m11" value="Ecosistema Tech Líder y Autosustentable" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="720" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="medge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="m2" target="m3" />
+        <mxCell id="medge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m3" target="m4">
+          <mxGeometry relative="1" as="geometry">
+            <Array points="165,235" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="m3" target="m5" />
+        <mxCell id="medge4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m3" target="m6">

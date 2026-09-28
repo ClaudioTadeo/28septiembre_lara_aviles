@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Negocio & User Journey</title>
+    <style>
+        :root {
+            --primary: #1A365D;
+            --purple-bg: #E1D5E7;
+            --purple-border: #9673A6;
+            --yellow-bg: #FFF2CC;
+            --yellow-border: #D6B656;
+            --green-bg: #D5E8D4;
+            --green-border: #82B366;
+            --blue-bg: #DAE8FC;
+            --blue-border: #6C8EBF;
+            --gray-bg: #F5F5F5;
+            --gray-border: #666666;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f8fafc;
+            color: #334155;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        header h1 {
+            color: var(--primary);
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 1.3rem;
+            color: #475569;
+            margin-top: 40px;
+            border-bottom: 2px dashed #cbd5e1;
+            padding-bottom: 10px;
+        }
+
+        /* Diseño del Flujo en Tarjetas */
+        .flow-step {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 500px;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .arrow-down {
+            text-align: center;
+            font-size: 24px;
+            color: #94a3b8;
+            margin: 10px 0;
+        }
+
+        /* Grid para los dos perfiles */
+        .profile-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border-top: 8px solid;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Estilos basados en los colores de tu draw.io */
+        .phase-onboarding { background-color: var(--purple-bg); border: 2px solid var(--purple-border); }
+        .profile-casual { border-top-color: var(--yellow-border); }
+        .profile-hardcore { border-top-color: var(--yellow-border); }
+        .monetization-freemium { background-color: var(--green-bg); border: 2px solid var(--green-border); }
+        .monetization-premium { background-color: var(--blue-bg); border: 2px solid var(--blue-border); }
+        .habit-card { background-color: var(--gray-bg); border: 2px solid var(--gray-border); text-align: center; }
+        .evangelist-card { background-color: var(--green-bg); border: 2px solid var(--green-border); text-align: center; border-radius: 50px; padding: 30px; }
+
+        @media (max-width: 768px) {
+            .profile-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Plan de Negocio: Psicología y Comportamiento del Cliente</h1>
+            <p>Estructura estratégica automatizada desde el mapa de experiencia de usuario (User Journey).</p>
+        </header>
+
+        <!-- FASE 1: ONBOARDING -->
+        <div class="section-title">Fase 1: Adquisición y Onboarding</div>
+        
+        <div class="flow-step phase-onboarding">
+            <h3>Fase 1: Descubrimiento</h3>
+            <p>El cliente llega buscando aprender cálculo o programar por necesidad académica o laboral.</p>
+        </div>
+
+        <div class="arrow-down">⬇️</div>
+
+        <div class="flow-step phase-onboarding">
+            <h3>Test de Nivelación</h3>
+            <p>El cliente experimenta gratificación inmediata al ver su nivel real y recibir su primera racha (Día 1).</p>
+        </div>
+
+        <!-- FASE 2: BIFURCACIÓN -->
+        <div class="section-title">Fase 2: Segmentación por Perfil de Comportamiento</div>
+
+        <div class="profile-grid">
+            <!-- Perfil Casual -->
+            <div class="card profile-casual">
+                <h3 style="color: #b58900;">Cliente Casual / Gamificado</h3>
+                <ul>
+                    <li>Dedica 10-15 min diarios.</li>
+                    <li>Valora las rachas y ligas.</li>
+                    <li>Tolera los anuncios.</li>
+                    <li>Evita perder vidas en lógica básica.</li>
+                </ul>
+                <div class="arrow-down">⬇️</div>
+                <div class="card monetization-freemium">
+                    <h4>Comportamiento Freemium</h4>
+                    <p>Consume publicidad para recuperar vidas o espera al día siguiente. Aporta valor de tráfico y volumen.</p>
+                </div>
+            </div>
+
+            <!-- Perfil Hardcore -->
+            <div class="card profile-hardcore">
+                <h3 style="color: #b58900;">Cliente Intensivo (Estudiante)</h3>
+                <ul>
+                    <li>Dedica más de 1 hora al día.</li>
+                    <li>Resuelve cálculo y código complejo.</li>
+                    <li>Comete errores y agota vidas rápido.</li>
+                    <li>Sufre frustración por bloqueos.</li>
+                </ul>
+                <div class="arrow-down">⬇️</div>
+                <div class="card monetization-premium">
+                    <h4>Detonador de Compra (Premium)</h4>
+                    <p>El usuario decide pagar para eliminar la barrera de vidas, acceder a explicaciones de la IA y descargar proyectos de código.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FASE 3: RETENCIÓN -->
+        <div class="section-title">Fase 3: Retención a Largo Plazo y Crecimiento Orgánico</div>
+
+        <div class="card habit-card" style="margin: 30px auto; max-width: 600px;">
+            <h3>Hábito Consolidado</h3>
+            <p>Ambos perfiles se integran en la comunidad, participan en torneos y defienden su posición en las ligas.</p>
+        </div>
+
+        <div class="arrow-down">⬇️</div>
+
+        <div class="card evangelist-card" style="margin: 20px auto; max-width: 600px;">
+            <h3>🚀 Cliente Evangelizador</h3>
+            <p>Presume su certificación en LinkedIn o recomienda la app en su universidad. <strong>Atrae nuevos clientes sin costo (Efecto Red).</strong></p>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
